@@ -4,7 +4,6 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --footer-and-hero-color: #2f303a;
-  --primary-bg-color: #ffffff;
   --secondary-bg-color: #f5f4fa;
   --borders-color: #afb1b8;
 }
@@ -37,7 +36,6 @@ p {
   padding: 0;
 }
 .container {
-  outline: 1px solid tomato;
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
@@ -175,6 +173,25 @@ p {
 .contacts-footer:hover,
 .contacts-footer:focus {
   color: var(--accent-color);
+}
+.footer-list {
+  display: flex;
+}
+.footer-item{
+  padding-top: 10px;
+  margin-left: 156px;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+.media-links.footer{
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  margin-top: 20px;
 }
 /* index.html */
 /* hero and buttons*/
@@ -351,7 +368,7 @@ p {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
-.list-company{
+.list-company {
   flex-basis: calc((100% - 5 * 30px) / 6);
 }
 
