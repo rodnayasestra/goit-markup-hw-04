@@ -6,7 +6,7 @@
   --footer-and-hero-color: #2f303a;
   --primary-bg-color: #ffffff;
   --secondary-bg-color: #f5f4fa;
-  --borders-color:  #AFB1B8;
+  --borders-color: #afb1b8;
 }
 
 /* стилизация ссылок и т.п. */
@@ -312,23 +312,41 @@ p {
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 19px;
-  color: var(--primary-p-color);}
+  color: var(--primary-p-color);
+}
+.social-media {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.media-links {
+  fill: var(--borders-color);
+  display: flex;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+}
+.media-links:hover {
+  background-color: var(--accent-color);
+  fill: var(--primary-white-color);
+  border-radius: 50%;
+}
 /* 4 секция */
 .regular-customers {
   display: flex;
   gap: 30px;
 }
 .company-card {
-  fill:var(--borders-color);
+  fill: var(--borders-color);
   padding: 16px 32px;
-  justify-content: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   display: flex;
   width: 170px;
   height: 92px;
 }
-.company-card:hover{
+.company-card:hover {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
