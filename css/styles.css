@@ -250,6 +250,7 @@ p {
   gap: 30px;
 }
 .placement-icon {
+  flex-basis: calc((100% - 3 * 30px) / 4);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -349,6 +350,9 @@ p {
 .company-card:hover {
   fill: var(--accent-color);
   border-color: var(--accent-color);
+}
+.list-company{
+  flex-basis: calc((100% - 5 * 30px) / 6);
 }
 
 /* portfolio.html */
