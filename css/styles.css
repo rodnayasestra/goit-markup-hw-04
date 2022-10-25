@@ -84,11 +84,16 @@ p {
 .header-nav.contacts {
   margin-left: auto;
 }
+.header-nav.contacts .item{
+  margin-left: 30px;
+}
+.header-nav.contacts .item:first-child{
+  margin-left: 0;
+}
+
 .main-nav {
   display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .studio {
   color: #000000;
@@ -126,7 +131,7 @@ p {
 .link-contacts {
   display: flex;
   align-items: center;
-  padding: 0;
+
   fill: currentColor;
 }
 .icons-header {
