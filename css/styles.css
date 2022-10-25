@@ -75,25 +75,25 @@ p {
   font-size: 26px;
   line-height: 1.2;
 }
+.nav{
+  display: flex;
+  align-items: center;
+}
 .header-nav {
   display: flex;
 }
 .header-nav .item + .item {
   margin-left: 50px;
 }
-.header-nav.contacts {
-  margin-left: auto;
-}
-.header-nav.contacts .item{
+.header-nav.contacts .item:not(:first-child){
   margin-left: 30px;
 }
-.header-nav.contacts .item:first-child{
-  margin-left: 0;
-}
+
 
 .main-nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .studio {
   color: #000000;
