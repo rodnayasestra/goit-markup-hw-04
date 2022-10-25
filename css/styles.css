@@ -128,6 +128,7 @@ p {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
 .link-contacts {
   display: flex;
   align-items: center;
@@ -142,11 +143,6 @@ p {
 .icons-header.smartphone {
   height: 16px;
 }
-.envelope {
-  width: 16px;
-  height: 12px;
-}
-
 .footer {
   background-color: var(--footer-and-hero-color);
 }
