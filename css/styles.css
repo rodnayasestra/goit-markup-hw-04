@@ -75,7 +75,7 @@ p {
   font-size: 26px;
   line-height: 1.2;
 }
-.nav{
+.nav {
   display: flex;
   align-items: center;
 }
@@ -85,10 +85,9 @@ p {
 .header-nav .item + .item {
   margin-left: 50px;
 }
-.header-nav.contacts .item:not(:first-child){
+.header-nav.contacts .item:not(:first-child) {
   margin-left: 30px;
 }
-
 
 .main-nav {
   display: flex;
